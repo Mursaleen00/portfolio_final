@@ -19,15 +19,15 @@ function Banner() {
     { img: "/icon/blender.svg", name: "Blender" },
   ];
   return (
-    <div className="w-full sm:w-[85%] md:w-[95%] rounded-[20px] mx-auto bg-color bg-opacity-15 my-10 border-2 border-color shadow-xl">
+    <div className="w-full sm:w-[85%] md:w-[95%] rounded-[20px] mx-auto bg-color bg-opacity-15 border-2 border-color shadow-xl">
       <div className="overflow-x-hidden">
         <h1 className="font-extrabold text-center text-2xl  pt-5">~~~ Skills ~~~</h1>
-        <div className="py-3 flex flex-wrap gap-5 justify-center">
+        <div className="py-3 flex flex-wrap gap-5 justify-center px-5">
           {data.map((item: any, index: number) => {
             return (
               <div className="flex flex-col justify-center items-center" key={index}>
                 <Image src={item.img} alt="" width={50} height={50} />
-                <h3 className="font-semibold text-lg text-center">
+                <h3 className="font-semibold text-lg text-center ">
                   {item.name}
                 </h3>
               </div>
