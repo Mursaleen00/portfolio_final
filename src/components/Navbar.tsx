@@ -36,7 +36,7 @@ function Navbar() {
                 <HiMenu className="w-10 cursor-pointer h-7 text-color hover:text-black" />
               </div>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-color bg-opacity-15 border-2 border-color mt-5 md:hidden rounded-xl">
+            <DropdownMenuContent className="bg-color bg-opacity-15 border-2 border-color mt-4 mr-4 md:hidden rounded-xl">
               <DropdownMenuItem className="cursor-pointer font-semibold hover:text-color">
                 About
               </DropdownMenuItem>
@@ -45,6 +45,9 @@ function Navbar() {
               </DropdownMenuItem>
               <DropdownMenuItem className="cursor-pointer font-semibold hover:text-color">
                 Contact
+              </DropdownMenuItem>
+              <DropdownMenuItem className="cursor-pointer font-semibold hover:text-color">
+              <Button title="Download CV" outline={false} />
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
