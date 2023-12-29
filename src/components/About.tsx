@@ -20,7 +20,7 @@ function About() {
               About Me
             </h1>
             <p className="font-semibold text-lg">
-              Hello there! as you know I'm Mursaleen, a passionate web designer
+              Hello there! as you know I am Mursaleen, a passionate web designer
               and front-end developer with a flair for creating captivating
               digital experiences.
             </p>
