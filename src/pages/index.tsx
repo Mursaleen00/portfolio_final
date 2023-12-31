@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Line from "@/components/Line";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import Portfolio from "@/components/Portfolio";
 
 const inter = Quicksand({ subsets: ["latin"] });
 
@@ -20,8 +21,10 @@ export default function Home() {
       <Line evenly={false} />
       <About />
       <Line evenly={true} />
-      <Contact />
+      <Portfolio />
       <Line evenly={false} />
+      <Contact />
+      <Line evenly={true} />
       <Footer />
     </main>
   );
