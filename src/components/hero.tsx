@@ -11,16 +11,15 @@ function Hero() {
   return (
     <div className="w-full sm:w-[85%] md:w-[95%] rounded-[20px] bg-bg2 mx-auto bg-cover  border-2 border-color shadow-xl">
       <div className="w-full h-full bg-color bg-opacity-15 rounded-[20px] px-4 sm:px-8 lg:px-28 py-5 lg:flex justify-between">
-       
         <div className="flex flex-col gap-y-2">
           <h2 className="font-semibold text-xl italic inline">
             <span className="bg-color text-white px-2 not-italic rounded-xl">
               Hello!
-            </span>{" "}
+            </span>
             I am
           </h2>
           <h1 className="font-bold text-5xl">
-            <span className="text-color"> M</span>ursaleen{" "}
+            <span className="text-color"> M</span>ursaleen
             <span className="text-color"> A</span>nsari
           </h1>
           <h1 className="font-semibold text-2xl">Front-End Developer</h1>
@@ -54,9 +53,14 @@ function Hero() {
         </div>
 
         <div className="lg:w-[41%] lg:h-[304px] lg:max-w-[400px]">
-          <Image alt="Coding" src={"/image/Coding.png"} className="w-full h-full" width={320} height={320}/>
+          <Image
+            alt="Coding"
+            src={"/image/Coding.svg"}
+            className="w-full h-full"
+            width={320}
+            height={320}
+          />
         </div>
-
       </div>
     </div>
   );

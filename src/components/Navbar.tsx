@@ -21,6 +21,7 @@ function Navbar() {
 
         <div className="md:block hidden">
           <ul className="flex gap-x-5 font-semibold text-lg">
+            <li className="cursor-pointer  hover:text-color">Skill</li>
             <li className="cursor-pointer  hover:text-color">About</li>
             <li className="cursor-pointer  hover:text-color">Portfolio</li>
             <li className="cursor-pointer  hover:text-color">Contact</li>
@@ -38,6 +39,9 @@ function Navbar() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-color bg-opacity-15 border-2 border-color mt-4 mr-4 md:hidden rounded-xl">
               <DropdownMenuItem className="cursor-pointer font-semibold hover:text-color">
+                Skill
+              </DropdownMenuItem>
+              <DropdownMenuItem className="cursor-pointer font-semibold hover:text-color">
                 About
               </DropdownMenuItem>
               <DropdownMenuItem className="cursor-pointer font-semibold hover:text-color">
@@ -47,7 +51,7 @@ function Navbar() {
                 Contact
               </DropdownMenuItem>
               <DropdownMenuItem className="cursor-pointer font-semibold hover:text-color">
-              <Button title="Download CV" outline={false} />
+                <Button title="Download CV" outline={false} />
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

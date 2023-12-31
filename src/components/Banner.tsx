@@ -13,6 +13,7 @@ function Banner() {
     { img: "/icon/typescript.svg", name: "Typescript" },
     { img: "/icon/firebase.svg", name: "Firebase" },
     { img: "/icon/react.svg", name: "React" },
+    { img: "/icon/next.svg", name: "Next.js" },
     { img: "/icon/figma.svg", name: "Figma" },
     { img: "/icon/photoshop.svg", name: "Photoshop" },
     { img: "/icon/illustrator.svg", name: "Illustrator" },
