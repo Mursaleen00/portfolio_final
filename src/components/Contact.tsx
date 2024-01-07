@@ -4,7 +4,10 @@ import Map from "./Map";
 
 function Contact() {
   return (
-    <div className="w-full sm:w-[85%] md:w-[95%] bg-color bg-opacity-15 rounded-[20px] mx-auto border-2 border-color shadow-xl">
+    <div
+      id="contact"
+      className="scroll-mt-10 w-full sm:w-[85%] md:w-[95%] bg-color bg-opacity-15 rounded-[20px] mx-auto border-2 border-color shadow-xl"
+    >
       <h1 className="font-extrabold text-center text-2xl pt-5">
         ~~~ Contact ~~~
       </h1>

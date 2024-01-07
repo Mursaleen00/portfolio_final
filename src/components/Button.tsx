@@ -10,10 +10,10 @@ function Button(props: ButtonProps) {
   return (
     <>
       <button
-        className={` px-6 py-2 ${
+        className={`lg:px-6 px-4 lg:py-2 py-1 ${
           outline
             ? "border-color border-2 text-color bg-transparent"
-            : "bg-color text-white "
+            : "bg-color text-white"
         }  font-semibold outline-none rounded-3xl`}
       >
         {title}

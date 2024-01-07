@@ -18,9 +18,12 @@ function Banner() {
     { img: "/icon/illustrator.svg", name: "Illustrator" },
   ];
   return (
-    <div className="w-full sm:w-[85%] md:w-[95%] rounded-[20px] mx-auto bg-color bg-opacity-15 border-2 border-color shadow-xl">
+    <div
+      id="skill"
+      className="scroll-mt-10 w-full sm:w-[85%] md:w-[95%] rounded-[20px] mx-auto bg-color bg-opacity-15 border-2 border-color shadow-xl"
+    >
       <div className="overflow-x-hidden">
-        <h1 className="font-extrabold text-center text-2xl  pt-5">
+        <h1 className="font-extrabold text-center text-2xl pt-5">
           ~~~ Skills ~~~
         </h1>
         <div className="py-3 flex flex-wrap gap-5 justify-center px-5">
@@ -31,7 +34,7 @@ function Banner() {
                 key={index}
               >
                 <Image src={item.img} alt="" width={50} height={50} />
-                <h3 className="font-semibold text-lg text-center ">
+                <h3 className="font-semibold md:text-lg text-md text-center ">
                   {item.name}
                 </h3>
               </div>
