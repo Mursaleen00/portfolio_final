@@ -7,6 +7,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa6";
 import Image from "next/image";
+import Link from "next/link";
 function Hero() {
   return (
     <div className="w-full sm:w-[85%] md:w-[95%] rounded-[20px] bg-bg2 mx-auto bg-cover  border-2 border-color shadow-xl">
@@ -32,22 +33,48 @@ function Hero() {
             </div>
             <div className="flex gap-2 items-center ">
               <IoCall className="text-lg text-color" />
-              <p className="text-lg font-semibold">+92 3147064365</p>
+              <Link href={"tel:+92 3147064365"}>
+                <p className="text-lg font-semibold">+92 3147064365</p>
+              </Link>
             </div>
             <div className="flex gap-2 items-center ">
               <IoMail className="text-lg text-color" />
-              <p className="text-lg font-semibold">m.mursaleen3456@gmail.com</p>
+              <Link href={"mailto:m.mursaleen3456@gmail.com"}>
+                <p className="text-lg font-semibold">
+                  m.mursaleen3456@gmail.com
+                </p>
+              </Link>
             </div>
             <div className="flex gap-2 items-center ">
               <RiWhatsappFill className="text-lg text-color" />
               <p className="text-lg font-semibold">
-                +92 3147064365 / +92 3360200164
+                <Link href={"https://wa.link/etnyy6"} target="_blank">
+                  +92 3147064365
+                </Link>
+                /
+                <Link href={"https://wa.link/hqwoyz"} target="_blank">
+                  +92 3360200164
+                </Link>
               </p>
             </div>
           </div>
           <div className="text-center  text-4xl rounded-lg py-2 text-color flex gap-x-10 justify-center sm:justify-start">
-            <FaFacebookSquare />
-            <RiInstagramFill />
+            <Link
+              href={
+                "https://www.facebook.com/mursaleen.ansari.75457?mibextid=eHce3h"
+              }
+              target="_blank"
+            >
+              <FaFacebookSquare />
+            </Link>
+            <Link
+              href={
+                "https://www.instagram.com/mursaleen_ansari00?igsh=enUzZG1qMmV3Yjhy"
+              }
+              target="_blank"
+            >
+              <RiInstagramFill />
+            </Link>
             <FaLinkedin />
           </div>
         </div>
