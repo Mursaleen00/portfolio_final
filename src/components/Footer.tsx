@@ -10,7 +10,7 @@ function Footer() {
         <span className="text-color"> M</span>ursaleen
         <span className="text-color"> A</span>nsari
       </h1>
-      <div className="text-center  text-4xl rounded-lg py-2 text-color flex gap-x-10 justify-center sm:justify-start">
+      <div className="text-center  text-4xl rounded-lg py-2 text-color flex gap-x-10 justify-center sm:justify-start ">
         <FaFacebookSquare className="cursor-pointer" />
         <RiInstagramFill className="cursor-pointer" />
         <FaLinkedin className="cursor-pointer" />
